@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PressKit</title>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/uikit/1.2.0/css/uikit.gradient.min.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid">
+        <div id="navigation" class="uk-width-medium-1-4">
+          <h1 class="nav-header">DiceyCraft</h1>
+          <a class="nav-header" href="http://blog.diceycraft.info/">blog.diceycraft.info</a>
+          <ul class="uk-nav uk-nav-side">
+            <li><a href="#factsheet">Factsheet</a></li>
+            <li><a href="#description">Description</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#trailers">Videos</a></li>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#logo">Logo &amp; Icon</a></li>
+            <li><a href="#awards">Awards &amp; Recognition</a></li>
+            <li><a href="#quotes">Selected Articles</a></li>
+            <li><a href="#links">Additional Links</a></li>
+            <li><a href="#credits">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div id="content" class="uk-width-medium-3-4">
+          <img src="images/capsule_616x353_en.jpg" class="header"> <img src="images/capsule_616x353_ja.jpg" class="header">
+          <div class="uk-grid">
+            <div class="uk-width-medium-2-6">
+              <h2 id="factsheet">Factsheet</h2>
+              <p>
+                <strong>Developer:</strong><br/>
+                <a href="../circle/index.html">DiceyCraft</a><br/>
+                Based in Shimane, Japan
+              </p>
+              <p>
+                <strong>Founding date:</strong><br/>
+                January 14, 2016
+              </p>
+              <p>
+                <strong>Website:</strong><br/>
+                <a href="http://blog.diceycraft.info/">blog.diceycraft.info</a>
+              </p>
+              <p>
+                <strong>Press / Business contact:</strong><br/>
+                <a href="mailto:dicey.craft@gmail.com">dicey.craft@gmail.com</a>
+              </p>
+              <p>
+                <strong>Social:</strong><br/>
+                <a href="https://twitter.com/diceycraft">twitter.com/diceycraft</a><br/>
+              </p>
+              <p>
+                <strong>Releases:</strong><br />
+                <a href="../steam201711/index.html">Steam</a><br />
+              </p>
+            </div>
+            <div class="uk-width-medium-4-6">
+              <h2 id="description">Description</h2>
+              <p>
+
+              </p>
+              <p>
+                DiceyCraft は日本の同人ゲーム制作サークルです。完全一人制作の体制をとっており、私が自信を持って面白いと思える作品を時間をかけて作り上げています。
+                基本的には Windows 用のゲームを開発していますが、今後は Mac、 PS4 、Nintendo Switch も視野に入れて開発を進めています。
+              </p>
+              <h2 id="history">Press Releases</h2>
+              <p><strong>2017/11/7:</strong>&nbsp;
+                <a href="../steam201711/index.html">Released "Schatte ～The Witch and the Fake Shadow～" at Steam.</a><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../steam201711/index.html">Steam にて「魔女と偽りの影」をリリース</a>
+              </p>
+            </div>
+          </div>
+          <hr>
+          <h2 id="logo">Logo &amp; Icon</h2>
+          <a href="images/logo.zip">
+            <div class="uk-alert">download logo files as .zip (8.56MB)</div>
+          </a>
+          <div class="uk-grid images">
+            <div class="uk-width-medium-1-2"><a href="images/logo_en.png"><img src="images/logo_en.png" alt="logo" /></a></div>
+          </div>
+          <hr>
+          <h2 id="awards">Awards &amp; Recognition</h2>
+          <ul>
+          </ul>
+          <hr>
+          <h2 id="quotes">Selected Articles</h2>
+          <ul>
+          </ul>
+          <hr>
+          <h2 id="links">Additional Links</h2>
+          <hr>
+          <div class="uk-grid">
+            <div class="uk-width-medium-1-2">
+              <h2 id="contact">Contact</h2>
+              <p><strong>Inquiries</strong><br/><a href="mailto:dicey.craft@gmail.com">dicey.craft@gmail.com</a></p>
+              <p><strong>Twitter</strong><br/><a href="https://twitter.com/diceycraft">twitter.com/diceycraft</a></p>
+              <p><strong>Blog</strong><br/><a href="http://blog.diceycraft.info/">http://blog.diceycraft.info/</a></p>
+            </div>
+          </div>
+          <hr>
+          <p><a href="http://dopresskit.com/">presskit()</a> by Rami Ismail (<a href="http://www.vlambeer.com/">Vlambeer</a>) - also thanks to <a href="credits.html">these fine folks</a></p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.1.2/masonry.pkgd.min.js"></script>
+    <script type="text/javascript">
+      $( document ).ready(function() {
+       var container = $('.images');
+
+       container.imagesLoaded( function() {
+         container.masonry({
+           itemSelector: '.uk-width-medium-1-2',
+         });
+       });
+      });
+    </script>
+  </body>
+</html>
